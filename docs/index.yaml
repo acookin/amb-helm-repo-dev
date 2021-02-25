@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  ambassador:
+  - apiVersion: v1
+    appVersion: 1.11.1
+    created: "2021-02-25T12:35:05.143784-05:00"
+    description: A Helm chart for Datawire Ambassador
+    digest: 17877328c489d9ef0051eb7e9ecd356a971acca3a54e40e0c62438acc9d46ee4
+    home: https://www.getambassador.io/
+    icon: https://www.getambassador.io/images/logo.png
+    keywords:
+    - api gateway
+    - ambassador
+    - datawire
+    - envoy
+    maintainers:
+    - email: markus@maga.se
+      name: flydiverny
+    - email: flynn@datawire.io
+      name: kflynn
+    - email: nkrause@datawire.io
+      name: nbkrause
+    - email: lukeshu@datawire.io
+      name: lukeshu
+    name: ambassador
+    sources:
+    - https://github.com/datawire/ambassador
+    - https://github.com/prometheus/statsd_exporter
+    urls:
+    - https://acookin.github.io/amb-helm-repo-dev/ambassador-6.5.18-svccatalog0.tgz
+    version: 6.5.18-svccatalog0
+generated: "2021-02-25T12:35:05.138864-05:00"
